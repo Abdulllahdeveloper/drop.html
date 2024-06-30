@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: fix fit-content;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            background-color: gray;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .item {
+            display: flex;
+        }
+
+        .linear-gradient {
+            width: 333px;
+            height: 333px;
+            background-image: linear-gradient(white, blue);
+        }
+
+        .radial-gradient {
+            width: 333px;
+            height: 333px;
+            background-image: radial-gradient(white, green);
+        }
+
+        .conic-gradient {
+            width: 333px;
+            height: 333px;
+            background-image: conic-gradient(white, red, blue, yellow);
+        }
+
+        .box-shadow {
+            width: 333px;
+            height: 305px;
+            background-color: rgb(123, 124, 133);
+            box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.444);
+            padding: 14px;
+            color: white;
+        }
+
+        h1 {
+            text-shadow: 4px 4px 4px red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="linear-gradient"></div>
+            <div class="radial-gradient"></div>
+            <div class="conic-gradient"></div>
+            <div class="box-shadow">
+                this box shows box shadow
+            </div>
+        </div>
+        <div class="item">
+        <h1>Abdullah</h1></div>
+    </div>
+
+</body>
+
+</html>
